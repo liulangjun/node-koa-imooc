@@ -6,7 +6,7 @@ const app = new Koa()
 app.use(catchError)
 app.use(bodyparser())
 const AppManager = require('./core/init')
-console.log('1111测试222333');
+console.log('1111测试222333444');
 
 AppManager.init(app)
 
